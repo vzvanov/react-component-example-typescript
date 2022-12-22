@@ -2,7 +2,7 @@
 
 ### Screenshot
 
-![progress-bar](/assets/images/screenshot.jpg "progress-bar")
+![progress-bar](/images/screenshot.jpg "progress-bar")
 
 ## Available Scripts
 
