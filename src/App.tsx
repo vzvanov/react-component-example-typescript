@@ -1,25 +1,20 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NextForm from './components/Forms/NextForm';
+import { StepStatus } from './components/Step/Step';
+
+const steps = [
+  { id: '1', title: 'Stage #1', status: StepStatus.Inactive },
+  { id: '2', title: 'Stage #2', status: StepStatus.Inactive },
+  { id: '3', title: 'Stage #3', status: StepStatus.Inactive },
+  { id: '4', title: 'Stage #4', status: StepStatus.Inactive },
+];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main className="App">
+      <NextForm steps={steps} />
+    </main>
   );
 }
 
