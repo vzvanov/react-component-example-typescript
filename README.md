@@ -1,5 +1,10 @@
 # React component example in TypeScript
 
+### Links
+
+- Solution URL: [https://github.com/vzvanov/react-component-example-typescript](https://github.com/vzvanov/react-component-example-typescript)
+- Live Site URL: [https://vzvanov.github.io/react-component-example-typescript](https://vzvanov.github.io/react-component-example-typescript)
+
 ### Screenshot
 
 ![progress-bar](/images/screenshot.jpg "progress-bar")
